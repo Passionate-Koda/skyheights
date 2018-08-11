@@ -2503,7 +2503,11 @@ function getAdmin($dbconn){
     if($user_status == 2){
       $user_status = "Suspended";
     }
-
+    if($bio !== NULL && $image_1 !== NULL){
+      $completeRegistration = "<span style=\"color:green\">Registration Complete</span>";
+    }else{
+      $completeRegistration = "<span style=\"color:red\">Not Completed</span>";
+    }
     echo '
     <tr>
     <td class="ads-details-td">
@@ -2513,13 +2517,12 @@ function getAdmin($dbconn){
 
     <p> <strong> Last Logout </strong>:
     '.$last_logout.'</p>
-    <p><strong> Phone Number</strong>:
+    <p><p> <strong> Registration Status</strong>:
+    '.$completeRegistration.' <strong> Phone Number</strong>:
     <a href="tel:'.$phone_number.'">'.$phone_number.'<a/></p>
     <p> <strong>Login Status </strong>: '.$login_status.'&nbsp&nbsp<strong>Email</strong> <a target="_blank" href="mailto:'.$email.'">'.$email.'</a></p>
     </td>
     <td class="ads-details-td">
-    <p> <strong> Level </strong>:
-    '.$level.'</p>
     <p> <strong> Account Status</strong>:
     '.$user_status.'</p>
     <p> <strong>Verification Status </strong>: '.$verification.'</p>
