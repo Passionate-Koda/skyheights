@@ -96,8 +96,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 						<div class="description-content">
 							<div class="description-heading">
 								<div class="time">
-									<span>21</span>
-									<span>Aug</span>
+									<p class="date"><span><?php echo $date_created ?></span></p>
 								</div>
 								<h3><?php echo $headline ?></h3>
 							</div>

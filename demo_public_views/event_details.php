@@ -94,9 +94,7 @@ $EDate = decodeDate($end_date);
 					<div class="col-sm-12">
 						<div class="description-content">
 							<div class="description-heading">
-								<div class="time">
-									<span>Aug</span>
-								</div>
+
 								<h3><?php echo $name ?></h3>
 							</div>
 							<div class="description-text">
