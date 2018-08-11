@@ -109,6 +109,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 									<div class="col-sm-11">
 										<div class="description-text-right">
 										<p> <?php echo $body ?> </p>
+                                             <div class="sharethis-inline-share-buttons"></div>
 										</div>
 									</div>
 								</div>

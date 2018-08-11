@@ -106,6 +106,7 @@ $EDate = decodeDate($end_date);
 									<div class="col-sm-11">
 										<div class="description-text-right">
 								<p><?php echo $about ?></p>
+                                         <div class="sharethis-inline-share-buttons"></div>
 										</div>
 									</div>
 								</div>
@@ -175,6 +176,7 @@ $EDate = decodeDate($end_date);
                               <p><?php
                               $SDate = decodeDate($date_created); echo $SDate;
                                ?></p>
+
                           </div>
                   </div>
                 </div><!-- /.recent-single-item -->
