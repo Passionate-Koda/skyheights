@@ -15,10 +15,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 <!-- Mirrored from ecologytheme.com/theme/eduread/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:40:52 GMT -->
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Skyheights Academy">
-	<meta name="keywords" content="college, education, institute, responsive, school, teacher, university">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include 'includes/head.php' ?>
 	<title>SkyHeights</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->

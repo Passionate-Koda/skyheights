@@ -86,10 +86,7 @@ $lastname = 'ff';
 <!-- Mirrored from ecologytheme.com/theme/eduread/become-a-teacher.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:09 GMT -->
 <head>
     <meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="description" content="Skyheights Academy">
-	<meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include 'includes/head.php' ?>
 	<title>Skyheights Academy</title>
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->

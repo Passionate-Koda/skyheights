@@ -5,7 +5,7 @@
 				<div class="col-sm-3">
 				<a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="100" height="100" src="images/log.jpeg" alt=""></a>
 				</div>
-		
+
 				<div class="col-sm-2">
 				<h3>About</h3>
 					<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Enrol your child today.</p>
@@ -56,11 +56,11 @@
 					<div class="col-md-6 col-sm-12 footer-no-padding">
 						<ul class="list-unstyled footer-menu text-right">
 							<li>Follow us:</li>
-							<li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus google"></i></a></li>
-							<li><a href="#"><i class="fa fa-skype skype"></i></a></li>
+							<li><a target="_blank" href="https://web.facebook.com/skyheights.scholars"><i class="fa fa-facebook facebook"></i></a></li>
+							<!-- <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li> -->
+							<li><a target="_blank" href="https://www.instagram.com/skyheightsacademy/"><i class="fa fa-instagram instagram"></i></a></li>
+							<!-- <li><a href="#"><i class="fa fa-google-plus google"></i></a></li> -->
+							<!-- <li><a href="#"><i class="fa fa-skype skype"></i></a></li> -->
 						</ul>
 					</div>
 				</div>

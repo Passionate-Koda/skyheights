@@ -51,8 +51,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 				</div>
 				<div class="col-sm-6 col-xs-12 header-top-right">
 					<ul class="list-unstyled">
-						<li><a href="register.html"><i class="fa fa-user-plus top-icon"></i> Sing up</a></li>
-						<li><a href="login.html"><i class="fa fa-lock top-icon"></i>Login</a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -125,12 +124,12 @@ extract($value);
 								<div class="row">
 									<div class="col-sm-12">
 										<ul class="list-unstyled">
-											<li><a href="#" class="rss"><i class="fa fa-rss"></i>rss feed</a></li>
-											<li><a href="#" class="twitter"><i class="fa fa-twitter"></i>Follow us</a></li>
-											<li><a href="#" class="facebook"><i class="fa fa-facebook"></i>like us</a></li>
-											<li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i>follow us</a></li>
-											<li><a href="#" class="instagram"><i class="fa fa-instagram"></i>follow us</a></li>
-											<li><a href="#" class="google"><i class="fa fa-google-plus"></i>plus 1 us</a></li>
+											<!-- <li><a href="#" class="rss"><i class="fa fa-rss"></i>rss feed</a></li> -->
+											<!-- <li><a href="#" class="twitter"><i class="fa fa-twitter"></i>Follow us</a></li> -->
+											<li><a target="_blank" href="https://web.facebook.com/skyheights.scholars" class="facebook"><i class="fa fa-facebook"></i>like us</a></li>
+											<!-- <li><a href="#" class="pinterest"><i class="fa fa-pinterest"></i>follow us</a></li> -->
+											<li><a target="_blank" href="https://www.instagram.com/skyheightsacademy/" class="instagram"><i class="fa fa-instagram"></i>follow us</a></li>
+											<!-- <li><a href="#" class="google"><i class="fa fa-google-plus"></i>plus 1 us</a></li> -->
 										</ul>
 									</div>
 								</div>
@@ -166,7 +165,7 @@ extract($value);
 						</div>
 
 
-						<div class="col-sm-12">
+						<!-- <div class="col-sm-12">
 							<h3>Populer tags</h3>
 							<div class="populer-tags">
 								<div class="tagcloud">
@@ -181,7 +180,7 @@ extract($value);
 									<a href="#">Video</a>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
