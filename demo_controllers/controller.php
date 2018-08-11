@@ -544,7 +544,7 @@ function addApplication($dbconn,$post,$destn){
 
   $success = "Application Sent Successfully";
   $succ = preg_replace('/\s+/', '_', $success);
-  header("Location:/manageArticles?success=$succ");
+  header("Location:/becomeAteacher?success=$succ");
 }
 
 function addCampusArticle($dbconn,$post,$destn, $sess){

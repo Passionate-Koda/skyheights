@@ -3,6 +3,68 @@
 <meta name="description" content="Skyheights Academy">
 <meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<?php if(isset($page) && $page == "NEWS"){
+  $bd = previewBody($body,22);
+
+   ?>
+
+  <meta property="og:title" content="Skyheights Academy - <?php echo $headline ?>" />
+  <meta property="og:image" content="https://skyheights-academy.com/<?php echo $image_1 ?> " />
+  <meta property="og:image:width" content="450"/>
+  <meta property="og:image:height" content="298"/>
+  <meta property="og:description" content=" <?php echo $bd ?> " />
+
+
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@boardspeck">
+  <meta name="twitter:title" content="Skyheights Academy - <?php echo $headline ?>">
+  <meta name="twitter:description" content="<?php echo $bd ?>">
+  <meta name="twitter:image" content="https://skyheights-academy.com/<?php echo $image_1 ?> ">
+  <meta name="twitter:image:width" content="280">
+  <meta name="twitter:image:height" content="150">
+
+
+
+<?php }elseif(isset($page) && $page == "EVENT"){
+  $bd = previewBody($event['about'],22);
+   ?>
+
+
+  <meta property="og:title" content="Skyheights Academy - <?php echo $event['name']; ?>" />
+  <meta property="og:image" content="https://skyheights-academy.com/images/log.jpeg" />
+  <meta property="og:image:width" content="450"/>
+  <meta property="og:image:height" content="298"/>
+  <meta property="og:description" content=" <?php echo $bd ?> " />
+
+
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@boardspeck">
+  <meta name="twitter:title" content="Skyheights Academy - <?php echo $event['name'];  ?>">
+  <meta name="twitter:description" content="<?php echo $bd ?>">
+  <meta name="twitter:image" content="https://skyheights-academy.com/images/log.jpeg">
+  <meta name="twitter:image:width" content="280">
+  <meta name="twitter:image:height" content="150">
+
+
+
+
+
+
+
+
+<?php }else{ ?>
+
+
 <meta property="og:title" content="Skyheights Academy" />
 <meta property="og:image" content="https://skyheights-academy.com/images/log.jpeg" />
 <meta property="og:image:width" content="450"/>
@@ -21,7 +83,7 @@
 <meta name="twitter:image:width" content="280">
 <meta name="twitter:image:height" content="150">
 
-
+<?php } ?>
 
 
 

@@ -119,6 +119,7 @@ $lastname = 'ff';
 	<div class="header-top">
 		<div class="container">
 			<div class="row">
+
 				<div class="col-sm-6 col-xs-12 header-top-left">
 					<ul class="list-unstyled">
 											<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:08118288129">08118288129</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
@@ -151,6 +152,18 @@ $lastname = 'ff';
 <section class="become-teachers-01">
 	<div class="container">
 		<div class="row">
+      <?php if (isset($_GET['success'])){
+      $msg = str_replace('_', ' ', $_GET['success']);
+
+        echo '<div class="col-md-12">
+      <div class="inner-box posting">
+      <div class="alert alert-success alert-lg" role="alert">
+      <h2 class="postin-title">✔ Successful! '.$msg.' </h2>
+    <p>Thank you, SkyHeights Academy is happy to have you around. </p>
+      </div>
+      </div>
+      </div>';
+      } ?>
 			<div class="col-sm-12 text-center become-title">
 				<h2>Apply as Teacher</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur</p>

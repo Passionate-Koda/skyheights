@@ -79,6 +79,9 @@ switch ($uri[1]) {
   case "becomeAteacher":
   include APP_PATH."/demo_public_views/becomeAteacher.php";
   break;
+  case "becomeAteacher?success=$success":
+  include APP_PATH."/demo_public_views/becomeAteacher.php";
+  break;
 
   case "teachers?id=$id":
   include APP_PATH."/demo_public_views/teachers_details.php";

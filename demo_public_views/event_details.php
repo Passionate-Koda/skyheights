@@ -1,4 +1,6 @@
-<?php $event = fetchItemById($conn, 'event', $_GET['id']);
+<?php
+$page = "EVENT";
+$event = fetchItemById($conn, 'event', $_GET['id']);
 $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 $upcoming = upcomingEvent($conn);
 extract($event);

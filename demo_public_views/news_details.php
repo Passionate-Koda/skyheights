@@ -1,4 +1,5 @@
 <?php
+$page = "NEWS";
 $news = fetchItemById($conn, 'news', $_GET['id']);
 $upcoming = upcomingEvent($conn);
 extract($news);
