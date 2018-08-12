@@ -43,6 +43,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
   #slid p{
     color:#FFFFFF;
   }
+
 </style>
 
 
@@ -76,7 +77,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					  <a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="120" height="120" src="images/log.jpeg" alt=""></a>
+					  <a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="100" height="100" src="images/log.jpeg" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse edu-nav main-menu" id="bs-example-navbar-collapse-1">
@@ -158,7 +159,9 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 					<img src="<?php echo $image ?>" alt="Sky" class="rev-slidebg">
 					<!-- BEGIN BASIC TEXT LAYER -->
 					<!-- LAYER NR.1 -->
+<div class="clearfix">
 
+</div>
           <div  class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 header-1 title-line-2"
             data-x="left" data-hoffset="0"
             data-y="center" data-voffset="-80"
@@ -190,7 +193,13 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
     </div><!-- END SLIDER CONTAINER WRAPPER -->
 </header>
 	<!--  End header section-->
-
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
 
 <section class="slider-content-bottom">
@@ -585,7 +594,20 @@ $EDate = decodeDate($end_date);
 	</div>
 </section>
 <!-- ./ End Instraction Area section -->
-
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+  t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 <!-- Footer Area section -->
 <?php include 'includes/footer.php'; ?>
 

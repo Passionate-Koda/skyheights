@@ -1,3 +1,30 @@
+
+
+
+
+<?php if(array_key_exists("submit", $_POST)){
+  $email = $_POST['email'];
+  $name = $_POST['name'];
+  $message = $_POST['comments'];
+
+  $to = "boardspeck@gmail.com";
+  $subject = "Message From $name Skyheights Academy";
+  $txt = $message. "<hr>the email to this message is $email";
+  $headers = "From: $email" . "\r\n" .
+  "CC: banjimayowa@gmail.com";
+  try {
+      mail($to,$subject,$txt,$headers);
+  } catch (PDOException $e) {
+    die("Error, Try again");
+  }
+  $success = "Message Sent Successfully";
+  $succ = preg_replace('/\s+/', '_', $success);
+  header("Location:/contact?success=$succ");
+
+} ?>
+
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -48,7 +75,13 @@
 
 	<div class="header-body">
 <?php include 'includes/header.php' ?>
-
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -80,6 +113,10 @@
       </div>
       </div>';
       } ?>
+
+
+
+
 			<div class="col-sm-5 contact-info">
 				<div class="col-sm-12 contact-title">
 					<h2>Contact Info</h2>
@@ -110,11 +147,11 @@
 	                    </div>
 	                	<div class="col-sm-12 single-address-box">
 	                        <ul class="list-unstyled">
-								<li><a href="#"><i class="fa fa-facebook teacher-icon"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter teacher-icon"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus teacher-icon"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin teacher-icon"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram teacher-icon"></i></a></li>
+								<li><a target="_blank" href="https://web.facebook.com/skyheights.scholars"><i class="fa fa-facebook teacher-icon"></i></a></li>
+								<!-- <li><a href="#"><i class="fa fa-twitter teacher-icon"></i></a></li> -->
+								<!-- <li><a href="#"><i class="fa fa-google-plus teacher-icon"></i></a></li> -->
+								<!-- <li><a href="#"><i class="fa fa-linkedin teacher-icon"></i></a></li> -->
+								<li><a href="target="_blank" href="https://www.instagram.com/skyheightsacademy/""><i class="fa fa-instagram teacher-icon"></i></a></li>
 							</ul>
 	                	</div>
                     </div>
@@ -125,7 +162,7 @@
 				<div class="row">
 					<div class="col-sm-12 contact-title-btm">
 						<h2>Send A Message</h2>
-						<p class="content-sub_p">Welcome to our Website. We are glad to have you around.</p>
+						<p class="content-sub_p">You can leave a message for us</p>
 					</div>
 				</div>
 				<div class="input-contact-form">
@@ -133,7 +170,7 @@
 
 					<div id="contact">
 					<div id="message"></div>
-                    <form method="post" action="" name="contactform" id="contactform">
+                    <form method="post" action="" >
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
@@ -145,11 +182,7 @@
                                     <input type="email" class="form-control" placeholder="Email" name="email" id="email">
                                 </div>
                             </div>
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" name="subject" id="subject">
-                                </div>
-                            </div>
+
                             <div class="col-sm-12">
                             	<div class="form-group">
                                     <textarea class="form-control" rows="6" placeholder="Message" name="comments" id="comments"></textarea>
@@ -157,7 +190,7 @@
                             </div>
                             <div class="col-sm-12">
                                 <div class="full-width">
-                                    <input value="Submit" type="submit" name="submit" id="submit">
+                                    <input value="Submit" type="submit" name="submit">
                                 </div>
                             </div>
                         </div>
@@ -172,7 +205,20 @@
 </section>
 <!-- ./ End Contact Area section -->
 
-
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+  t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 <!-- Footer Area section -->
 <?php include 'includes/footer.php'; ?>
     <!-- ============================

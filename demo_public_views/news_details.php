@@ -110,7 +110,6 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 													<a href="#">Admin</a>
 												</div>
 											</div>
-
 										</div>
 									</div>
 									<div class="col-sm-11">

@@ -90,6 +90,9 @@ switch ($uri[1]) {
   case "news_board":
   include APP_PATH."/demo_public_views/news.php";
   break;
+  case "contact?success=$success":
+  include APP_PATH."/demo_public_views/contact.php";
+  break;
   case "contact":
   include APP_PATH."/demo_public_views/contact.php";
   break;
