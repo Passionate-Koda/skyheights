@@ -15,7 +15,6 @@ $fname = ucwords($firstname);
 $lname = ucwords($lastname);
  ?>
 
-
 <div id="content">
 <div class="container">
 <div class="row">

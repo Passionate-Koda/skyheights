@@ -175,7 +175,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 						data-x="left" data-hoffset="0"
 						data-y="center" data-voffset="-10"
 						data-frames='[{"delay":0,"speed":2000,"frame":"0","from":"y:top;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-						style="z-index: 6; line-height:25px; font-size:15px; color:#fff; font-family: 'Open Sans', sans-serif;, serif; white-space: nowrap;"><?php echo $text; ?>
+						style="z-index: 6; width: 60%; line-height:25px; font-size:15px; color:#fff; font-family: 'Open Sans', sans-serif;, serif; white-space: nowrap;"><?php echo $text; ?>
 					</div>
 
 					<!-- LAYER NR. 4 -->
