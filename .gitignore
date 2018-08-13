@@ -18,3 +18,4 @@ www/application_files.tar.gz
 www/phpmyadmin
 .vagrant
 Vagrantfile
+uploads

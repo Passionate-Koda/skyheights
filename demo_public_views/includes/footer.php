@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class=" col-sm-12 footer-content-box">
 				<div class="col-sm-3">
-				<a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="100" height="100" src="images/log.jpeg" alt=""></a>
+				<a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="60" height="60" src="images/log.jpeg" alt=""></a>
 				</div>
 
 				<div class="col-sm-2">
