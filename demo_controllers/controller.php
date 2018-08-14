@@ -1418,6 +1418,8 @@ function editImage($dbconn,$destn,$del,$get,$tb){
     header("location:manageExploits");
   }
 }
+
+
 function previewBody($string, $count){
   $original_string = $string;
   $words = explode(' ', $original_string);
@@ -1427,6 +1429,23 @@ function previewBody($string, $count){
   }
   return strip_tags($string);
 }
+
+function cutHeader($string, $count){
+  $original_string = $string;
+  $words = explode(' ', $original_string);
+   // die(var_dump($words));
+
+
+      if($words[$count]){
+
+        $words[$count+1] = "<br>".$words[$count+1];
+      }
+
+  $string =  implode(' ',$words);
+
+  return $string;
+}
+
 
 function previewRealBody($string, $count){
   $return = [];
@@ -2425,14 +2444,6 @@ function PgetCampusNewsView($dbconn,$get){
     }
   }
 }
-
-
-
-
-
-
-
-
 function getApplication($dbconn){
   //   $nl = "NULL";
   $stmt = $dbconn->prepare("SELECT * FROM teachers_application");
@@ -2468,9 +2479,6 @@ function getApplication($dbconn){
     </tr>';
   }
 }
-
-
-
 
 
 
