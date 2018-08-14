@@ -472,7 +472,7 @@ $EDate = decodeDate($end_date);
 		<div class="row">
 			<div class="col-sm-12 section-header-box">
 				<div class="section-header">
-					<h2>Latest News</h2>
+					<h2>Latest on the News Boards</h2>
 				</div><!-- ends: .section-header -->
 			</div>
 		</div>
