@@ -46,7 +46,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 header-top-left">
 					<ul class="list-unstyled">
-<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:08118288129">08118288129</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
+<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:09098685966">09098685966</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
 					</ul>
 				</div>
 				<div class="col-sm-6 col-xs-12 header-top-right">

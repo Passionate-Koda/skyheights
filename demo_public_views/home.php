@@ -59,7 +59,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 header-top-left">
 					<ul class="list-unstyled">
-	<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:08118288129">08118288129</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
+	<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:09098685966">09098685966</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
 					</ul>
 				</div>
 
@@ -158,14 +158,14 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 
 
 
-    <div style="width:100%" class="">
+
 <div  class="tp-caption sfr font-extra-bold tp-resizeme letter-space-4 header-1 title-line-2"
   data-x="left" data-hoffset="0"
   data-y="center" data-voffset="-80"
   data-frames='[{"delay":1000,"speed":3000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
   style="z-index: 6;width: 70%;font-size:60px; color:#fff; font-family: 'Montserrat', sans-serif;, serif; white-space: nowrap;font-weight:700;"><?php echo $header_title ?>
 </div>
-      </div>
+
 
 					<!-- LAYER NR. 3 -->
 
@@ -210,7 +210,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_01">
 					<img src="images/index/slide-bottom-01.png" alt="" class="btm-item-icon">
 					<h3>Professional Teachers</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					<p>We have capable hand that bring about positive changes in the lifes of our students</p>
 
 				</div>
 			</div>
@@ -219,7 +219,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_02">
 					<img src="images/index/slide-bottom-02.png" alt="" class="btm-item-icon">
 					<h3>Learn Anywhere</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					<p>Even as we play, we learn</p>
 
 				</div>
 			</div>
@@ -228,7 +228,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_03">
 					<img src="images/index/slide-bottom-03.png" alt="" class="btm-item-icon">
 					<h3>Good Training</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					<p>360 Degree Learning Process</p>
 
 				</div>
 			</div>
@@ -583,7 +583,7 @@ $EDate = decodeDate($end_date);
 		<div class="row inspiration-full-box">
 			<div class="col-md-9 section-header-l">
 				<h2>Like to become an Teacher?</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+				<p>Click to apply</p>
 			</div>
 
 			<div class="col-md-3">
