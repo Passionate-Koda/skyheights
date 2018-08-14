@@ -210,7 +210,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_01">
 					<img src="images/index/slide-bottom-01.png" alt="" class="btm-item-icon">
 					<h3>Professional Teachers</h3>
-					<p>We have capable hand that bring about positive changes in the lifes of our students</p>
+					<p>We have capable hands that bring about positive changes in the lifes of our students</p>
 
 				</div>
 			</div>
@@ -219,7 +219,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_02">
 					<img src="images/index/slide-bottom-02.png" alt="" class="btm-item-icon">
 					<h3>Learn Anywhere</h3>
-					<p>Even as we play, we learn</p>
+					<p>Even as we play, We learn</p>
 
 				</div>
 			</div>
@@ -228,7 +228,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 				<div class="slider-btm-box btm-item_03">
 					<img src="images/index/slide-bottom-03.png" alt="" class="btm-item-icon">
 					<h3>Good Training</h3>
-					<p>360 Degree Learning Process</p>
+					<p>360 Degree Learning Process, creating the future</p>
 
 				</div>
 			</div>

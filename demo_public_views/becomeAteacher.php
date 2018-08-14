@@ -172,11 +172,11 @@ $lastname = 'ff';
       } ?>
 			<div class="col-sm-12 text-center become-title">
 				<h2>Apply as Teacher</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur</p>
+
 				<span class="line"></span>
 			</div>
 			<div class="col-sm-8 col-sm-offset-2 text-center become-title-text">
-				<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
+				<p>We are Educators, create your passion and inspiration. And hope success will come for your dream. </p>
 			</div>
 		</div>
 		<!-- <div class="row">
@@ -185,11 +185,7 @@ $lastname = 'ff';
 			</div>
 		</div> -->
 		<div class="row">
-			<div class="col-sm-12 text-center become-title become-teacher-title">
-				<h2>How to become a teacher</h2>
 
-				<span class="line"></span>
-			</div>
 			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-5">
@@ -255,19 +251,7 @@ $lastname = 'ff';
 
 							<div class="tab-content">
 							  	<div class="tab-pane fade in active" id="become_a_teacher">
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream.  Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
-
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
-							  	</div>
-							  	<div class="tab-pane fade" id="roles">
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream.  Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
-
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
-							  	</div>
-							  	<div class="tab-pane fade" id="courses">
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream.  Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
-
-							  		<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Please send email and get latest news. And hope success will come for your dream. Please send email and get latest news</p>
+							  		<p>Teachers play extraordinary part in the lives of children for the formative years of their development and the importance of teachers cannot be understated. READ Foundation(2014)  </p>
 							  	</div>
 							</div>
   						</div>
