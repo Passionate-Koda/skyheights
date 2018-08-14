@@ -138,7 +138,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 							<div class="col-md-4 col-sm-6 blog-single-item">
 							    <div class="blog-post">
 									<figure>
-										<div class="figure-img"><div style="width:100%; height:200px; background:url(<?php echo $image_1?>); background-position:center; background-size:cover; background-repeat: no-repeat;">
+										<div class="figure-img"><div style="width:100%; height:200px; background:url('<?php echo $image_1?>'); background-position:center; background-size:cover; background-repeat: no-repeat;">
 
                     </div></div>
 										<figcaption>

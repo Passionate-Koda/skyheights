@@ -430,7 +430,7 @@ $EDate = decodeDate($end_date);
              ?>
 						<div>
 							<!-- <img src="<?php echo $value['image']?>" alt="1" class="img-responsive img-circle"> -->
-              <div style="width:80px; height:80px; background:url(<?php echo $value['image']?>); background-position:center; background-size:cover; background-repeat: no-repeat; border-radius:100%">
+              <div style="width:80px; height:80px; background:url('<?php echo $value['image']?>'); background-position:center; background-size:cover; background-repeat: no-repeat; border-radius:100%">
 
               </div>
 						</div>
@@ -485,7 +485,7 @@ $EDate = decodeDate($end_date);
 			<div class="col-sm-4 news-single">
 
 				<div class="news-single-box">
-					<div class="news-img-box" style="width:100%; height:300px; background:url(<?php echo $image_1?>); background-position:center; background-size:cover; background-repeat: no-repeat;">
+					<div class="news-img-box" style="width:100%; height:300px; background:url('<?php echo $image_1?>'); background-position:center; background-size:cover; background-repeat: no-repeat;">
 						<!-- <img src="<?php ?>" alt="" class="img-responsive"> -->
 					</div>
 					<div class="news-content">
