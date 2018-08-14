@@ -159,6 +159,9 @@ if(isset($page_name) && $page_name == 'articles'){
           <li><a href="addArticle">Add Articles</a></li>
           <li><a href="manageArticles">Manage Articles</a></li>
            <li> <a href="logout">Logout</a></li>
+<?php }elseif($level == 11){ ?>
+          <li><a href="admin">Home</a></li>
+           <li> <a href="logout">Logout</a></li>
         <?php }else{ ?>
           <li><a href="admin">Home</a></li>
 
@@ -168,6 +171,11 @@ if(isset($page_name) && $page_name == 'articles'){
 
           <li><a href="manageNews">Manage News</a></li>
           <li><a href="manageExpression">Manage Students Expression</a></li>
+          <li><a href="manageViews">Manage Views</a></li>
+
+          <!-- <li><a href="addAbout">Add About Us</a></li> -->
+          <li><a href="manageTestimony">Manage Testimony</a></li>
+          <li><a href="manageAbout">About Us</a></li>
 
           <li><a href="manageEvent">Manage Events</a></li>
           <li><a href="viewApplication">Manage Application</a></li>

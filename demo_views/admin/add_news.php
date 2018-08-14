@@ -33,6 +33,7 @@ if(array_key_exists('submit', $_POST)){
   if(empty($error)){
     $_POST['category'] = "skyheights";
     $_POST['visibility'] = "hide";
+    $_POST['link'] = "Admin";
     $ver['a'] = compressImage($_FILES,'upload',90, 'uploads/' );
     $clean = array_map('trim', $_POST);
     $firstn = $fname;
@@ -80,10 +81,7 @@ if(array_key_exists('submit', $_POST)){
 <label class="control-label">News Headline</label><?php $display = displayErrors($error, 'title');
 echo $display ?> <input class="form-control input-md" name="title" placeholder="Write a suitable headline"  type="text">
 </div>
-<div class="form-group mb30">
-<label class="control-label">Author</label><?php $display = displayErrors($error, 'author');
-echo $display ?> <input class="form-control input-md" name="link" placeholder="Enter News Author here"  type="text">
-</div>
+
 
 <br>
 <br>

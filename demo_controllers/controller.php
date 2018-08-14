@@ -131,6 +131,7 @@ function addTestimony($db, $input){
     $stmt->bindParam(":ptf", $input['testimony']);
     $stmt->execute();
     $success = "Done ";
+      logs($dbconn, 'added', $input['tesname'],'Testimony',$sess);
     header("Location:manageTestimony?success=$success");
 }
 function TesDetail($db,$get){
@@ -201,6 +202,7 @@ function addExpression($db,$ver, $input){
     $stmt->bindParam(":img", $ver);
     $stmt->execute();
     $success = "Done ";
+      logs($dbconn, 'added', $input['tesname'],'students expression',$sess);
     header("Location:manageExpression?success=$success");
 }
 
@@ -363,7 +365,7 @@ function adminLogin($dbconn, $input){
       $state->execute();
       $row = $state->fetch(PDO::FETCH_BOTH);
       extract($row);
-      $suc = 'Dear '.ucwords($firstname).', You Have Not been Verified as BoardSpeck Admin';
+      $suc = 'Dear '.ucwords($firstname).', You Have Not been Verified as SkyHeights Academy Staff';
       $message = preg_replace('/\s+/', '_', $suc);
       header("Location:adminLogin?wn=$message");
     }else{
@@ -477,6 +479,7 @@ function addFrontage($dbconn,$post,$destination,$sess){
   $stmt->execute($data);
   $success = "Frontage Info Added";
   $succ = preg_replace('/\s+/', '_', $success);
+    logs($dbconn, 'added', $post['header_title'],'frontage',$sess);
   header("Location:/manageViews?success=$succ");
 }
 catch(PDOException $e){

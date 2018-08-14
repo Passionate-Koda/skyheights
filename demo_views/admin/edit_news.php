@@ -20,14 +20,13 @@ if(array_key_exists('submit', $_POST)){
   if(empty($_POST['title'])){
     $error['title']="Enter a Title";
   }
-  if(empty($_POST['link'])){
-    $error['link']="Enter a Link";
-  }
+
   if(empty($_POST['body'])){
     $error['body']="Enter a body";
   }
 
   $_POST['category'] = "Skyheights Academy";
+  $_POST['link'] = "Admin";
   if(empty($error)){
     $clean = array_map('trim', $_POST);
     editNews($conn, $clean,$_GET['id']);
@@ -65,11 +64,6 @@ if(array_key_exists('submit', $_POST)){
 <label class="control-label">News Title</label><?php $display = displayErrors($error, 'headline');
 echo $display ?> <input class="form-control input-md" name="title" placeholder="Write a suitable Headline for your news" value="<?php echo $edit_info['headline']      ?>"  type="text">
 </div>
-
-<div class="form-group mb30">
-<label class="control-label">Link</label><?php $display = displayErrors($error, 'author');
-echo $display ?> <input class="form-control input-md" name="link" placeholder="Enter your news link" value="<?php echo $edit_info['link']      ?>"  type="text">
-<div class="form-group mb30">
 
 <label class="control-label" for="textarea">Body</label>
 <?php $display = displayErrors($error, 'body');

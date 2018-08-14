@@ -8,6 +8,17 @@ include("include/level1_limit.php");
 include("include/student_limit.php");
 include("include/level2_limit.php");
 authenticate();
+$check2 = adminFullInfo($conn,$_SESSION['id']);
+if($check2['portfolio'] !=555666777888999000){
+  setLogout($conn,$_SESSION['id']);
+  session_destroy();
+  $success = "Your Account Cannot View Logs";
+  $succ = preg_replace('/\s+/', '_', $success);
+  header("Location: adminLogin?ssp=$succ");
+}
+
+
+
 if(isset($_SESSION['id'])){
   $session = $_SESSION['id'];
 }
