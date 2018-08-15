@@ -28,11 +28,7 @@
 
   $headers = "From: $email'" . "\r\n" .
   "CC: banjimayowa@gmail.com";
-  $headers .= "MIME-Version: 1.0\r\n";
-  $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-  $headers .= 'From: '.$to."\r\n".
-    'Reply-To: '.$to."\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+
   try {
       mail($to,$subject,$txt,$headers);
   } catch (PDOException $e) {
