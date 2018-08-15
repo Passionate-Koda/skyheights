@@ -38,6 +38,8 @@
 
   $headers = "From: $email" . "\r\n" .
   "CC: banjimayowa@gmail.com";
+  $headers .= "MIME-Version: 1.0\r\n";
+  $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
   try {
       mail($to,$subject,$txt,$headers);
   } catch (PDOException $e) {
