@@ -21,8 +21,11 @@ $lastname = $userinfo['lastname'];
 
 $to = $email;
 $subject = "Boardspeck Web Office Verification";
-$txt = "Hello $firstname $lastname, You have been Verified from the Boardspeck Web Office. Login at https://boardspeck.com/adminLogin";
-$headers = "From: info@boardspeck.com" . "\r\n" .
+$txt = "<h1>Skyheights Academy</h1>
+<hr>
+
+Hello $firstname $lastname, You have been Verified from the Skyheights Academy Web Office.<br> Login at https://skyheights-academy.com/login";
+$headers = "From: skyheightsacademy1@gmail.com" . "\r\n" .
 "CC: boardspeck@gmail.com";
 
 mail($to,$subject,$txt,$headers);
