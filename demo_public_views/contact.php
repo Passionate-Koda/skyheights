@@ -7,15 +7,15 @@
 
 
 <?php if(array_key_exists("submit", $_POST)){
-  $email = $_POST['email'];
-  $name = $_POST['name'];
-  $message = $_POST['comments'];
+  $email = strip_tags($_POST['email']);
+  $name = strip_tags($_POST['name']);
+  $message = strip_tags($_POST['comments']);
 
 
-    $txt = '<h1>Message From '.$name.' </h1>
+    $txt = '<html><body><h1>Message From '.$name.' </h1>
     <br>
     '.$message.'
-    <br>The email to this message is '.$email.'';
+    <br>The email to this message is '.$email.'</body></html>';
 
 
 
@@ -26,7 +26,7 @@
   $to = "boardspeck@gmail.com";
   $subject = "Message From $name Skyheights Academy";
 
-  $headers = "From: $email" . "\r\n" .
+  $headers = "From: $email'" . "\r\n" .
   "CC: banjimayowa@gmail.com";
   $headers .= "MIME-Version: 1.0\r\n";
   $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
