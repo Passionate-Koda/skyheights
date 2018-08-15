@@ -9,7 +9,7 @@
 
   $to = "boardspeck@gmail.com";
   $subject = "Message From $name Skyheights Academy";
-  $txt = $message. "<hr>the email to this message is $email";
+  $txt = $message. "the email to this message is $email";
   $headers = "From: $email" . "\r\n" .
   "CC: banjimayowa@gmail.com";
   try {
