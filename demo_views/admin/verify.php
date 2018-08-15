@@ -20,11 +20,8 @@ $lastname = $userinfo['lastname'];
 
 
 $to = $email;
-$subject = "Boardspeck Web Office Verification";
-$txt = "<h1>Skyheights Academy</h1>
-<hr>
-
-Hello $firstname $lastname, You have been Verified from the Skyheights Academy Web Office.<br> Login at https://skyheights-academy.com/login";
+$subject = "Skyheights Academy Web Office Verification";
+$txt = "Hello $firstname $lastname, You have been Verified from the Skyheights Academy Web Office.<br> Login at https://skyheights-academy.com/login";
 $headers = "From: skyheightsacademy1@gmail.com" . "\r\n" .
 "CC: boardspeck@gmail.com";
 
