@@ -44,14 +44,18 @@ if(array_key_exists('submit', $_POST)){
       $destn['b'] = $verb[1];
 
       $clean = array_map('trim', $_POST);
-      $email = "banjimayowa@gmail.com";
+      $email = "skyheightsacademy1@gmail.com";
       $namee = $_POST['name'];
 
       $to = $email;
       $subject = "Application on Skyheights Academy";
       $txt = "$namee submitted an application on SkyHeights Academy Website. Kindly check the Manage Application Page of the Web office web office";
-      $headers = "From: skyheightsacademy1@gmail.com" . "\r\n" .
-      "CC: boardspeck@gmail.com";
+      $headers = "From: skyheightsacademy1@gmail.com" . "\r\n";
+      try {
+          mail($to,$subject,$txt,$headers);
+      } catch (PDOException $e) {
+        die("Error, Try again");
+      }
       addApplication($conn, $clean,$destn);
     }
 

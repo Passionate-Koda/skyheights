@@ -39,11 +39,10 @@ if(array_key_exists('submit', $_POST)){
 $firstname = $clean['firstname'];
 $lastname = $clean['lastname'];
 
- $to = "boardspeck@gmail.com";
+ $to = "skyheightsacademy1@gmail.com";
  $subject = "SkyHeights Academy Web Office Admin Registration";
  $txt = "Hello Admin, A new Admin($firstname $lastname)  has registered to the web office. Kindly check for Verification";
- $headers = "From: info@boardspeck.com" . "\r\n" .
- "CC: banjimayowa@gmail.com";
+ $headers = "From: skyheightsacademy1@gmail.com" . "\r\n";
 
  mail($to,$subject,$txt,$headers);
 

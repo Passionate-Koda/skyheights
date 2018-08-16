@@ -38,14 +38,7 @@ if(array_key_exists('submit', $_POST)){
     $clean = array_map('trim', $_POST);
     $firstn = $fname;
     $lastn = $lname;
-    $uri = explode("/", $_SERVER['REQUEST_URI']);
-    $url = $uri[1];
-     $to = "boardspeck@gmail.com";
-     $subject = "SkyHeights Academy Web Office Content Upload";
-     $txt = "Hello Admin, ($firstn $lastn)has added a content on "."$url"." page at the back office. Kindly check for and approval";
-     $headers = "From: info@boardspeck.com" . "\r\n" .
-     "CC: banjimayowa@gmail.com";
-     mail($to,$subject,$txt,$headers);
+
     addNews($conn, $clean,$ver,$hash_id);
   }
 }

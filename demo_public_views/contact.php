@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 <?php if(array_key_exists("submit", $_POST)){
   $email = strip_tags($_POST['email']);
   $name = strip_tags($_POST['name']);
@@ -18,16 +11,10 @@
     <br>The email to this message is '.$email.'</body></html>';
 
 
+  $to = "skyheightsacademy1@gmail.com";
+  $subject = "Message From $name on Skyheights Academy Website";
 
-
-
-
-
-  $to = "boardspeck@gmail.com";
-  $subject = "Message From $name Skyheights Academy";
-
-  $headers = "From: $email'" . "\r\n" .
-  "CC: banjimayowa@gmail.com";
+  $headers = "From: $email'" . "\r\n";
 
   try {
       mail($to,$subject,$txt,$headers);
@@ -39,8 +26,6 @@
   header("Location:/contact?success=$succ");
 
 } ?>
-
-
 
 <!doctype html>
 <html class="no-js" lang="zxx">
