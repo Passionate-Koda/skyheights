@@ -269,19 +269,31 @@ $lastname = 'ff';
 							  	</div>
 							  	<div class="tab-pane fade in " id="roles">
                     <ol>
-                    <li style="text-transform: uppercase;">teaching all areas of the primary curriculum;</li>
-<li style="text-transform: uppercase;">taking responsibility for the progress of a class of primary-age pupils;</li>
-<li style="text-transform: uppercase;">organising the classroom and learning resources and creating displays to encourage a positive learning environment;</li>
-<li style="text-transform: uppercase;">planning, preparing and presenting lessons that cater for the needs of the whole ability range within the class;</li>
-<li style="text-transform: uppercase;">motivating pupils with enthusiastic, imaginative presentation;</li>
-<li style="text-transform: uppercase;">maintaining discipline;</li>
-<li style="text-transform: uppercase;">preparing and marking work to facilitate positive pupil development;</li>
-<li style="text-transform: uppercase;">meeting requirements for the assessment and recording of pupils' development;</li>
-<li style="text-transform: uppercase;">providing feedback to parents and carers on a pupil's progress at parents' evenings and other meetings;</li>
-<li style="text-transform: uppercase;">coordinating activities and resources within a specific area of the curriculum, and supporting colleagues in the delivery of this specialist area;</li>
-<li style="text-transform: uppercase;">working with others to plan and coordinate work;</li>
-<li style="text-transform: uppercase;">keeping up to date with changes and developments in the structure of the curriculum;</li>
-<li style="text-transform: uppercase;">organising and taking part in school events, outings and activities which may take place at weekends or in the evening;</li>
+                    <li style="text-transform: uppercase;"><p>teaching all areas of the primary curriculum;
+                    </p></li>
+<li style="text-transform: uppercase;"><p>taking responsibility for the progress of a class of primary-age pupils;
+</p></li>
+<li style="text-transform: uppercase;"><p>organising the classroom and learning resources and creating displays to encourage a positive learning environment;
+</p></li>
+<li style="text-transform: uppercase;"><p>planning, preparing and presenting lessons that cater for the needs of the whole ability range within the class;
+</p></li>
+<li style="text-transform: uppercase;"><p>motivating pupils with enthusiastic, imaginative presentation;
+</p></li>
+<li style="text-transform: uppercase;"><p>maintaining discipline;</li>
+<li style="text-transform: uppercase;"><p>preparing and marking work to facilitate positive pupil development;
+</p></li>
+<li style="text-transform: uppercase;"><p>meeting requirements for the assessment and recording of pupils' development;
+</p></li>
+<li style="text-transform: uppercase;"><p>providing feedback to parents and carers on a pupil's progress at parents' evenings and other meetings;
+</p></li>
+<li style="text-transform: uppercase;"><p>coordinating activities and resources within a specific area of the curriculum, and supporting colleagues in the delivery of this specialist area;
+</p></li>
+<li style="text-transform: uppercase;"><p>working with others to plan and coordinate work;
+</p></li>
+<li style="text-transform: uppercase;"><p>keeping up to date with changes and developments in the structure of the curriculum;
+</p></li>
+<li style="text-transform: uppercase;"><p>organising and taking part in school events, outings and activities which may take place at weekends or in the evening;
+</p></li>
 </ol>
 							  	</div>
 							</div>
