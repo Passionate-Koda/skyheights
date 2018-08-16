@@ -41,7 +41,7 @@ $lastname = $clean['lastname'];
 
  $to = "skyheightsacademy1@gmail.com";
  $subject = "SkyHeights Academy Web Office Admin Registration";
- $txt = "Hello Admin, A new Admin($firstname $lastname)  has registered to the web office. Kindly check for Verification";
+ $txt = "Hello Admin, Someone ($firstname $lastname)  has registered at the web office. Kindly check for Verification";
  $headers = "From: skyheightsacademy1@gmail.com" . "\r\n";
 
  mail($to,$subject,$txt,$headers);

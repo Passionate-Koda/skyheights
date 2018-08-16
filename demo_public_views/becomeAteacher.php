@@ -50,7 +50,9 @@ if(array_key_exists('submit', $_POST)){
       $to = $email;
       $subject = "Application on Skyheights Academy";
       $txt = "$namee submitted an application on SkyHeights Academy Website. Kindly check the Manage Application Page of the Web office web office";
-      $headers = "From: skyheightsacademy1@gmail.com" . "\r\n";
+      $headers = "MIME-Version: 1.0" . "\r\n";
+      $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+      $headers .= "From: <$email>" . "\r\n";
       try {
           mail($to,$subject,$txt,$headers);
       } catch (PDOException $e) {

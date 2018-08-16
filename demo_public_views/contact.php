@@ -12,7 +12,7 @@
     '.ucwords($message).' </p>
 
 <hr>
-    The email entered to this contact message is '.$email.'</body></html>';
+    The email that accompanied this message is  '.$email.'</body></html>';
 
 
   $to = "skyheightsacademy1@gmail.com";
