@@ -267,6 +267,23 @@ $lastname = 'ff';
 							  	<div class="tab-pane fade in active" id="become_a_teacher">
 							  		<p>Teachers play extraordinary part in the lives of children for the formative years of their development and the importance of teachers cannot be understated. READ Foundation(2014)  </p>
 							  	</div>
+							  	<div class="tab-pane fade in " id="roles">
+                    <ol>
+                    <li style="text-transform: uppercase;">teaching all areas of the primary curriculum;</li>
+<li style="text-transform: uppercase;">taking responsibility for the progress of a class of primary-age pupils;</li>
+<li style="text-transform: uppercase;">organising the classroom and learning resources and creating displays to encourage a positive learning environment;</li>
+<li style="text-transform: uppercase;">planning, preparing and presenting lessons that cater for the needs of the whole ability range within the class;</li>
+<li style="text-transform: uppercase;">motivating pupils with enthusiastic, imaginative presentation;</li>
+<li style="text-transform: uppercase;">maintaining discipline;</li>
+<li style="text-transform: uppercase;">preparing and marking work to facilitate positive pupil development;</li>
+<li style="text-transform: uppercase;">meeting requirements for the assessment and recording of pupils' development;</li>
+<li style="text-transform: uppercase;">providing feedback to parents and carers on a pupil's progress at parents' evenings and other meetings;</li>
+<li style="text-transform: uppercase;">coordinating activities and resources within a specific area of the curriculum, and supporting colleagues in the delivery of this specialist area;</li>
+<li style="text-transform: uppercase;">working with others to plan and coordinate work;</li>
+<li style="text-transform: uppercase;">keeping up to date with changes and developments in the structure of the curriculum;</li>
+<li style="text-transform: uppercase;">organising and taking part in school events, outings and activities which may take place at weekends or in the evening;</li>
+</ol>
+							  	</div>
 							</div>
   						</div>
 					</div>
