@@ -6,9 +6,13 @@
 
 
     $txt = '<html><body><h1>Message From '.$name.' </h1>
-    <br>
-    '.$message.'
-    <br>The email to this message is '.$email.'</body></html>';
+    <hr>
+<h3>Message:</h3>
+    <p>
+    '.ucwords($message).' </p>
+
+<hr>
+    The email entered to this contact message is '.$email.'</body></html>';
 
 
   $to = "skyheightsacademy1@gmail.com";
