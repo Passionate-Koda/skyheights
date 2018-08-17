@@ -128,7 +128,6 @@ echo $display ?>
 </div>
 </div>
 </div>
-
 </section>
 <a class="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
 <script src="assets/js/jquery-min.js" type="text/javascript">
