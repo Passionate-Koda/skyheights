@@ -1076,16 +1076,10 @@ function getAuthorCard($dbconn,$id){
 function addProfile($dbconn,$post,$destn,$img,$sess){
   try{
   $profile_status = NULL;
-  $stmt = $dbconn->prepare("UPDATE admin SET firstname=:fn,lastname=:ln,bio=:bi,phone_number=:pn,facebook_link=:fbl,twitter_link=:tlk,linkedin_link=:llk,instagram_link=:iglk,location=:lct,image_1=:img1,profile_status=:ps WHERE hash_id=:sess");
+  $stmt = $dbconn->prepare("UPDATE admin SET firstname=:fn,lastname=:ln,phone_number=:pn,image_1=:img1,profile_status=:ps WHERE hash_id=:sess");
   $stmt->bindParam(":fn",$post['fname']);
   $stmt->bindParam(":ln",$post['lname']);
-  $stmt->bindParam(":bi",$post['bio']);
   $stmt->bindParam(":pn",$post['phonenumber']);
-  $stmt->bindParam(":fbl",$post['fblink']);
-  $stmt->bindParam(":tlk",$post['twlink']);
-  $stmt->bindParam(":llk",$post['lklink']);
-  $stmt->bindParam(":iglk",$post['iglink']);
-  $stmt->bindParam(":lct",$post['location']);
   $stmt->bindParam(":img1",$destn);
   $stmt->bindParam(":ps",$profile_status);
   $stmt->bindParam(":sess",$sess);

@@ -27,27 +27,11 @@ if(array_key_exists('submit', $_POST)){
   if(empty($_POST['fname'])){
     $error['fname'] = "Enter FirstName";
   }
-  if(empty($_POST['bio'])){
-    $error['bio'] = "Enter Bio";
-  }
+
   if(empty($_POST['phonenumber'])){
     $error['phonenumber'] = "Enter PhoneNumber";
   }
-  if(empty($_POST['fblink'])){
-    $_POST['fblink'] = NULL;
-  }
-  if(empty($_POST['twlink'])){
-    $_POST['twlink'] = NULL;
-  }
-  if(empty($_POST['location'])){
-    $_POST['location'] = NULL;
-  }
-  if(empty($_POST['iglink'])){
-    $_POST['iglink'] = NULL;
-  }
-  if(empty($_POST['lklink'])){
-    $_POST['lklink'] = NULL;
-  }
+
   if(empty($error)){
     $ver = compressImage($_FILES,'upload',50, 'uploads/' );
     $clean = array_map('trim',$_POST);
@@ -103,13 +87,6 @@ echo $display ?>
 echo $display ?> <input required class="form-control input-md" name="lname"  type="text" value="<?php echo "$lname"  ?>" placeholder="Enter your lastname"/>
 </div>
 
-<div class="form-group mb30">
-<label class="control-label" for="textarea">BIO</label>
-<?php $display = displayErrors($error, 'bio');
-echo $display ?>
-<textarea class="form-control" id="textarea" name="bio" placeholder="Enter your Bio in not  more than 300 Characters" maxlength="300" rows="4" required><?php if($bio !== NULL){ echo "$bio";}  ?></textarea>
-</div>
-
 
 
 
@@ -121,34 +98,6 @@ echo $display ?> <input required class="form-control input-md" name="phonenumber
 </div>
 
 
-<h2 class="title-2">Enter your Social Media Details. Leave Blank Where You Do Not have an Account with the Platforms Listed </h2>
-
-<div class="form-group mb30">
-<label class="control-label">FACEBOOK LINK</label><?php $display = displayErrors($error, 'fblink');
-echo $display ?> <input class="form-control input-md" name="fblink"  type="text"placeholder="Enter your facebook link ( Sample: https://www.facebook.com/yourusername/)" value="<?php if($facebook_link !== NULL){ echo "$facebook_link";}  ?>"/>
-</div>
-
-<div class="form-group mb30">
-<label class="control-label">TWITTER LINK</label><?php $display = displayErrors($error, 'twlink');
-echo $display ?> <input class="form-control input-md" name="twlink"  type="text" placeholder="Enter your twitter link ( Sample: https://www.twitter.com/username/)" value="<?php if($twitter_link !== NULL){ echo "$twitter_link";}  ?>"/>
-</div>
-
-<div class="form-group mb30">
-
-<label class="control-label">LOCATION</label>
-<?php $display = displayErrors($error, 'location');
-echo $display ?> <input class="form-control input-md" name="location"  type="text" placeholder="Enter your location" value="<?php if($location !== NULL){ echo "$location";}  ?>"/>
-</div>
-
-<div class="form-group mb30">
-<label class="control-label">INSTAGRAM LINK</label><?php $display = displayErrors($error, 'iglink');
-echo $display ?> <input class="form-control input-md" name="iglink"  type="text" placeholder="Enter Your instagram link ( Sample: https://www.instagram.com/username/)" value="<?php if($instagram_link !== NULL){ echo "$instagram_link";}  ?>"/>
-</div>
-
-<div class="form-group mb30">
-<label class="control-label">LINKEDIN LINK</label> <?php $display = displayErrors($error, 'lklink');
-echo $display ?><input class="form-control input-md" name="lklink"  type="text" placeholder="Enter your linkedin link ( Sample: https://www.linkedin.com/in/yourusername/)" value="<?php if($linkedin_link !== NULL){ echo "$linkedin_link";}  ?>">
-</div>
 
 <h2 class="title-2">UPLOAD IMAGE</h2>
 
@@ -171,7 +120,7 @@ echo $display ?>
 <div class="inner-box posting">
 <div class="alert alert-success alert-lg" role="alert">
 <h2 class="postin-title"><?php echo '✔ Hey! '.ucwords($firstname).', you can only upload your status once. Except granted such access again by the Master admin'; ?> </h2>
-<p><?php echo ' '.ucwords($firstname).', Mckodev  has not given you such access yet, Ask for it if you need to update your status. They don\'t bite.'; ?> </p>
+<p><?php echo ' '.ucwords($firstname).', SkyHeights Academy has not given you such access yet, Ask for it if you need to update your status. They don\'t bite.'; ?> </p>
 </div>
 </div>
 </div>';
