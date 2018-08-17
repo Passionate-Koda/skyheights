@@ -2508,7 +2508,7 @@ function getAdmin($dbconn){
     if($user_status == 2){
       $user_status = "Suspended";
     }
-    if($bio !== NULL && $image_1 !== NULL){
+    if($image_1 !== NULL){
       $completeRegistration = "<span style=\"color:green\">Registration Complete</span>";
     }else{
       $completeRegistration = "<span style=\"color:red\">Not Completed</span>";
