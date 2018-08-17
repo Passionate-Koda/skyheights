@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 $reda = adminFullInfo($conn,$_SESSION['id']);
-if($reda["bio"] == NULL || $reda["bio"] == ""){
+if($reda["profile_status"] == NULL){
   header("Location:addProfile");
 }
 include("include/authentication.php");
