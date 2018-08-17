@@ -21,7 +21,7 @@ $row = $stmt->fetch(PDO::FETCH_BOTH);
 
 function fetchTeacher($dbconn){
   $result = [];
-$stmt= $dbconn->prepare("SELECT * FROM admin WHERE level=11 AND user_status=1");
+$stmt= $dbconn->prepare("SELECT * FROM admin WHERE level=11 AND profile_status=1");
 $stmt->execute();
 while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
   $result[] = $row;

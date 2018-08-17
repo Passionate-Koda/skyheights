@@ -1075,7 +1075,7 @@ function getAuthorCard($dbconn,$id){
 
 function addProfile($dbconn,$post,$destn,$img,$sess){
   try{
-  $profile_status = NULL;
+  $profile_status = 1;
   $stmt = $dbconn->prepare("UPDATE admin SET firstname=:fn,lastname=:ln,phone_number=:pn,image_1=:img1,profile_status=:ps WHERE hash_id=:sess");
   $stmt->bindParam(":fn",$post['fname']);
   $stmt->bindParam(":ln",$post['lname']);
