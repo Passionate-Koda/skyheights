@@ -3,7 +3,7 @@ $uri = explode("/", $_SERVER['REQUEST_URI']);
 //var_dump($uri);
 
 if(count($uri)> 2){
-  header("Location:/index");
+  header("Location:/");
 }
 
 //Creating A Null variable to be populated for the query String Route;

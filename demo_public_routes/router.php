@@ -60,6 +60,15 @@ if(isset($_GET['t'])){
 
 switch ($uri[1]) {
 
+  default:
+  include APP_PATH."/demo_public_views/home.php";
+  break;
+  case "":
+  include APP_PATH."/demo_public_views/home.php";
+  break;
+  case "/":
+  include APP_PATH."/demo_public_views/home.php";
+  break;
   case "home":
   include APP_PATH."/demo_public_views/home.php";
   break;
