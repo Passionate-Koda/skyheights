@@ -348,7 +348,7 @@ $EDate = decodeDate($end_date);
 <section class="counter-area">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-5 col-sm-offset-0 counters">
+			<!-- <div class="col-sm-5 col-sm-offset-0 counters">
 				<div class="row">
 					<div class="col-sm-6 counters-item">
 						<div class="section counter-box">
@@ -383,7 +383,7 @@ $EDate = decodeDate($end_date);
 					</div>
 
 				</div>
-			</div>
+			</div> -->
 
 			<div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
 				<div class="counter-text-box">
@@ -582,7 +582,7 @@ $EDate = decodeDate($end_date);
 	<div class="container">
 		<div class="row inspiration-full-box">
 			<div class="col-md-9 section-header-l">
-				<h2>Like to become an Teacher?</h2>
+				<h2>Like to become a Teacher?</h2>
 				<p>Click to apply</p>
 			</div>
 
