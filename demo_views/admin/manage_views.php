@@ -25,7 +25,7 @@ if(array_key_exists('submit', $_POST)){
   }
 
   if(empty($error)){
-    $_POST['text'] = "."
+    $_POST['text'] = ".";
     $ver = compressImage($_FILES,'upload',50, 'uploads/' );
     $clean =  array_map('trim',$_POST );
     addFrontage($conn, $clean, $ver,$hash_id);

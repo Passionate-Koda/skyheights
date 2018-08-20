@@ -1,7 +1,7 @@
 
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="description" content="Skyheights Academy">
-<meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
+<meta name="description" content="Skyheights Academy is a school who is interested in unleashing the hidden potentials of every child. It has a carefully structured curriculum ( British, Montessori and Nigeria) which suits every learning abilities of each child. The teaching method helps the child to envisage what has been taught into reality.">
+<meta name="keywords" content="sky, height,college,sky, height, academy, abuja,nigeria,Skyheights Academy, Sky Heights Academy, skyheights primary school, primary education, academy, education, institute school, teacher">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="D9ZVDr45hYwkmpf13pVSrYNgmg3AgtBW_tuEm2nZKoo" />
 
