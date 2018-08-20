@@ -6,7 +6,6 @@ $teacher = fetchTeacher($conn);
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/teachers-02.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -148,5 +147,5 @@ $teacher = fetchTeacher($conn);
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/teachers-02.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:52:47 GMT -->
+
 </html>

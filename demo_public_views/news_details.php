@@ -12,7 +12,7 @@ $moreblog = fetchitemLimit($conn,'news','ASC LIMIT 5');
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/blog-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:42 GMT -->
+
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>

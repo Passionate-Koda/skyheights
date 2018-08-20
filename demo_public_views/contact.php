@@ -35,7 +35,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -72,7 +71,7 @@
 			<div class="row">
 				<div class="col-sm-6 col-xs-12 header-top-left">
 					<ul class="list-unstyled">
-	<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:08118288129">08118288129</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
+	<li><i class="fa fa-phone top-icon"></i><a style="color:white" href="tel:09098685966">09098685966</a></li> <li><i class="fa fa-envelope top-icon"></i>  <a style="color:white" href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a></li>
 					</ul>
 				</div>
 
@@ -252,5 +251,5 @@
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
+
 </html>

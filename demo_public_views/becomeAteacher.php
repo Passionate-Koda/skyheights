@@ -97,7 +97,7 @@ $lastname = 'ff';
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/become-a-teacher.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:09 GMT -->
+
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -347,5 +347,5 @@ $lastname = 'ff';
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/become-a-teacher.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:10 GMT -->
+
 </html>

@@ -2,7 +2,7 @@
 
 <!doctype html>
 <html class="no-js" lang="zxx">
-<!-- Mirrored from ecologytheme.com/theme/eduread/event-grid-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:50:14 GMT -->
+
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -161,5 +161,5 @@
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/event-grid-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:50:14 GMT -->
+
 </html>

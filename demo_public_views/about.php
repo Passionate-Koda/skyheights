@@ -5,7 +5,6 @@ $about = fetchitem($conn,'about');
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
 <head>
     <meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -119,5 +118,5 @@ $about = fetchitem($conn,'about');
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/Skyheights Academy/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
+
 </html>

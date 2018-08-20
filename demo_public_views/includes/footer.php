@@ -40,7 +40,7 @@
 					<h3>More</h3>
 					<ul class="list-unstyled">
 						<li><a href="about"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>About Us</a></li>
-						<li><a href="teachers"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Our Teacher</a></li>
+						<li><a href="teachers"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Our Teachers</a></li>
 
 					</ul>
 				</div>

@@ -11,7 +11,6 @@ $EDate = decodeDate($end_date);
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/blog-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:42 GMT -->
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -243,6 +242,4 @@ $EDate = decodeDate($end_date);
 	<!-- Custom JS -->
 	<script src="js/custom.js"></script>
 </body>
-
-<!-- Mirrored from ecologytheme.com/theme/eduread/blog-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:51:56 GMT -->
 </html>

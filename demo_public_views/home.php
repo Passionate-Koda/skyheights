@@ -12,7 +12,6 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:40:52 GMT -->
 <head>
     <meta charset="utf-8">
 <?php include 'includes/head.php' ?>
@@ -650,5 +649,4 @@ $EDate = decodeDate($end_date);
 	<script src="js/custom.js"></script>
 </body>
 
-<!-- Mirrored from ecologytheme.com/theme/eduread/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Jul 2018 17:44:44 GMT -->
 </html>
