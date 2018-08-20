@@ -23,10 +23,9 @@ if(array_key_exists('submit', $_POST)){
   if(empty($_POST['header_title'])){
     $error['header_title'] = "Enter Header Title";
   }
-  if(empty($_POST['txt'])){
-    $error['txt'] = "Enter Text";
-}
+
   if(empty($error)){
+    $_POST['text'] = "."
     $ver = compressImage($_FILES,'upload',50, 'uploads/' );
     $clean =  array_map('trim',$_POST );
     addFrontage($conn, $clean, $ver,$hash_id);
@@ -78,7 +77,6 @@ $msg = str_replace('_', ' ', $_GET['success']);
    <table class="table table-striped table-hover" >
      <tr>
        <th width="100">TITLE</th>
-       <th>TEXT</th>
        <th width="100">IMAGE</th>
      </tr>
      <tbody>
@@ -129,12 +127,6 @@ $msg = str_replace('_', ' ', $_GET['success']);
 <div class="form-group mb30">
 <label class="control-label">Header Name</label> <input class="form-control input-md" name="header_title" placeholder="Enter name of the header"  type="text">
 </div>
-<?php $display = displayErrors($error, 'txt');
-echo $display ?>
-<div class="form-group mb30">
-<label class="control-label">Text</label>
-<textarea class="form-control"  id="editor1" name="txt" placeholder="Write your text here" rows="4"></textarea>
-<!-- <input class="form-control input-md" name="txt" placeholder="Enter your text here"  type="text"> -->
 
 <h2 class="title-2">Add Images to Public</h2>
 <?php $display = displayErrors($error, 'upload');
@@ -156,7 +148,7 @@ echo $display ?>
 
 <a class="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
  CKEDITOR.replace( 'editor1',
  {
 		toolbarGroups :
@@ -175,7 +167,7 @@ echo $display ?>
             { name: 'colors' },
 		]
 	});
-</script>
+</script> -->
 
 
 <script src="assets/js/jquery-min.js" type="text/javascript">

@@ -61,7 +61,6 @@ function viewFrontage($db){
   while($record = $stmt->fetch()){
     echo "<tr>";
     echo "<td>".$record['header_title']."</td>";
-    echo "<td>".$record['text']."</td>";
     echo "<td><div style='width:150px; height:100px; background:url(".$record['image']."); background-size: cover; background-position: center; background-repeat: no-repeat;'></div></td>";
     echo "<td><a href=\"delete_frontage?id=".$record['id']."\"><span class=\"label label-danger\">Delete</span></a></td>";
     echo "</tr>";

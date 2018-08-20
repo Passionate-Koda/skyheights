@@ -2,13 +2,13 @@
 	<div class="container">
 		<div class="row">
 			<div class=" col-sm-12 footer-content-box">
-				<div class="col-sm-3">
+				<div class="col-sm-2">
 				<a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="60" height="60" src="images/log.jpeg" alt=""></a>
 				</div>
 
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 				<h3>About</h3>
-					<p>We are Educatios, creat your passion and inspiration. And hope success will come for your dream. Enrol your child today.</p>
+					<p>Skyheights Academy is a school who is interested in unleashing the hidden potentials of every child. It has a carefully structured curriculum ( British, Montessori and Nigeria) which suits every learning abilities of each child. The teaching method helps the child to envisage what has been taught into reality.</p>
 				</div>
 
 
@@ -18,7 +18,7 @@
 						<li><span><i class="fa fa-phone footer-icon"></i></span> <a href="tel:09098685966">09098685966</a> </li>
 						<li><span><i class="fa fa-phone footer-icon"></i></span> <a href="tel:08118288129">08118288129</a> </li>
 						<li><span><i class="fa fa-envelope footer-icon"></i></span> <a href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a> </li>
-						<li><span><i class="fa fa-map-marker footer-icon"></i></span>Palmsheights Homes, Phase I,Voice of Nigeria Way, off Airport Road,Lagbe, Abuja</li>
+						<li><span><i class="fa fa-map-marker footer-icon"></i></span>Palmsheights Estate, Phase I,Voice of Nigeria Way, off Airport Road,Lagbe, Abuja</li>
 
 					</ul>
 
