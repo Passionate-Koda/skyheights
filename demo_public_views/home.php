@@ -77,7 +77,7 @@ $blog = fetchitemLimit($conn,'news','ASC LIMIT 3');
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					  <a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="100" height="100" src="images/log.jpeg" alt=""></a>
+					  <a href="home" class="navbar-brand  data-scroll"><img style="border-radius:20%;" width="80" height="80" src="images/log.jpeg" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse edu-nav main-menu" id="bs-example-navbar-collapse-1">
