@@ -3,6 +3,7 @@
 <meta name="description" content="Skyheights Academy">
 <meta name="keywords" content="college, education, institute, responsive, school, teacher, template, university">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="D9ZVDr45hYwkmpf13pVSrYNgmg3AgtBW_tuEm2nZKoo" />
 
 
 
