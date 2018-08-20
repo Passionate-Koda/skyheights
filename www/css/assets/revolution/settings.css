@@ -2393,7 +2393,7 @@ body.rtl .tp-kbimg {
 @media only screen and (max-width:767px) {
     .title-line-1,
     .title-line-2 {
-        font-size: 18px!important;
+        font-size: 13px!important;
         line-height: 65px!important
     }
     .header-p,
@@ -2441,10 +2441,10 @@ body.rtl .tp-kbimg {
     }
 }
 
-@media only screen and (min-width:480px) and (max-width:767px) {
+@media only screen and (min-width:320px) and (max-width:767px) {
     .title-line-1,
     .title-line-2 {
-        font-size: 18px!important;
+        font-size: 13px!important;
         line-height: 65px!important
     }
     .header-p,
