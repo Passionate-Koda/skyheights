@@ -1,13 +1,10 @@
 
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-<meta name="keywords" content="sky, height,college,sky, height, academy, abuja,nigeria,Skyheights Academy, Sky Heights Academy, skyheights primary school, primary education, academy, education, institute school, teacher">
+<meta name="title" content="SkyHeights Academy">
+<meta name="keywords" content="sky, height, college ,sky ,montessori, homeschooling, montessori school,child development, school teacher, teacher student, teaching jobs, height, academy,teacher, abuja,nigeria,Skyheights Academy, Sky Heights Academy, skyheights primary school, primary education, academy, education, institute school, teacher">
+<meta name="robots" content="index,follow" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-site-verification" content="D9ZVDr45hYwkmpf13pVSrYNgmg3AgtBW_tuEm2nZKoo" />
-
-
-
-
 
 <?php if(isset($page) && $page == "NEWS"){
   $bd = previewBody($body,22);
