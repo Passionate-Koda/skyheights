@@ -17,8 +17,6 @@
   <meta property="og:image:height" content="298"/>
   <meta property="og:description" content=" <?php echo $bd ?> " />
 
-
-
   <!-- Twitter -->
 
   <meta name="twitter:card" content="summary_large_image">
@@ -28,8 +26,6 @@
   <meta name="twitter:image" content="https://skyheights-academy.com/<?php echo $image_1 ?> ">
   <meta name="twitter:image:width" content="280">
   <meta name="twitter:image:height" content="150">
-
-
 
 <?php }elseif(isset($page) && $page == "EVENT"){
   $bd = previewBody($event['about'],22);
