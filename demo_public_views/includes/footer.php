@@ -20,7 +20,7 @@
 						<li><span><i class="fa fa-phone footer-icon"></i></span> <a href="tel:09098685966">09098685966</a> </li>
 						<li><span><i class="fa fa-phone footer-icon"></i></span> <a href="tel:08118288129">08118288129</a> </li>
 						<li><span><i class="fa fa-envelope footer-icon"></i></span> <a href="mailto:skyheightsacademy1@gmail.com">skyheightsacademy1@gmail.com</a> </li>
-						<li><span><i class="fa fa-map-marker footer-icon"></i></span>Palmsheights Estate, Phase I,Voice of Nigeria Way, off Airport Road,Lugbe, Abuja</li>
+						<li><span><i class="fa fa-map-marker footer-icon"></i></span>Palmsheights Estate, Phase I,Voice of Nigeria Way, off Airport Road, Lugbe, Abuja.</li>
 
 					</ul>
 

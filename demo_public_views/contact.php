@@ -148,7 +148,7 @@
                             <div class="single-address">
                                 <i class="fa fa-map-marker"></i>
                                 <h4>Location:</h4>
-                                <p>Palmsheights Estate, Phase I,Voice of Nigeria Way, off Airport Road,Lugbe, Abuja</p>
+                                <p>Palmsheights Estate, Phase I,Voice of Nigeria Way, off Airport Road, Lugbe, Abuja.</p>
                             </div>
 	                    </div>
 	                	<div class="col-sm-12 single-address-box">
