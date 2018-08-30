@@ -53,10 +53,6 @@
 
 
 
-
-
-
-
 <?php }else{ ?>
 
 <meta name="description" content="Skyheights Academy is a school who is interested in unleashing the hidden potentials of every child. It has a carefully structured curriculum ( British, Montessori and Nigeria) which suits every learning abilities of each child. The teaching method helps the child to envisage what has been taught into reality.">

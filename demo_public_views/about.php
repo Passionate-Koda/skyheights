@@ -78,7 +78,7 @@ $about = fetchitem($conn,'about');
 
 		<div class="row">
 			<div class="col-sm-6 Welcome-area-text">
-<?php echo $about; ?>
+<?php echo $body; ?>
 			</div><!-- Ends: . -->
 
 			<div class="col-sm-6 welcome-img">
