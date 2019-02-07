@@ -91,6 +91,9 @@ if(isset($page_name) && $page_name == 'articles'){
             <li class="postadd">
               <a class="btn btn-danger btn-post" href="index"><span class="fa fa-plus-circle"></span> Go to Public</a>
             </li>
+            <li class="postadd">
+              <a class="btn btn-danger btn-post" target="_blank" href="https://connect.yandex.com/portal/admin"><span class="fa fa-plus-circle"></span>Mail Admin</a>
+            </li>
           </ul>
         </div>
       </div>

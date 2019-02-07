@@ -70,6 +70,9 @@ switch ($uri[1]) {
   case "home":
   include APP_PATH."/demo_public_views/home.php";
   break;
+  case "webmail":
+  include APP_PATH."/demo_public_views/webmail.php";
+  break;
 
   case "events":
   include APP_PATH."/demo_public_views/events.php";

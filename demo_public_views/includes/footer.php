@@ -1,3 +1,26 @@
+
+
+
+<script src="count/jquery-2.2.3.min.js"></script>
+<!-- //Jquery -->
+
+<!-- Video js -->
+<script src="count/jquery.vide.min.js"></script>
+<!-- //Video js -->
+
+
+<script src="count/simplyCountdown.js"></script>
+<!-- easy to customize -->
+<script>
+  $('#simply-countdown-losange').simplyCountdown({
+    year: 2018,
+    month: 9,
+    day: 24
+  });
+</script>
+
+
+
 <footer>
 	<div class="container">
 		<div class="row">
@@ -53,7 +76,7 @@
 			<div class="footer-bottom-inner">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 footer-no-padding">
-						<p>&copy; Copyright 2018 SkyHeights Academy | All rights reserved | Built by  <a target="_blank" href="http://mckodev.com.ng">MCKODEV</a> </p>
+						<p>&copy; Copyright <?php   $date = getdate(date("U")); echo $date['year'] ?> SkyHeights Academy | All rights reserved | Built by  <a target="_blank" href="http://mckodev.com.ng">MCKODEV</a> </p>
 					</div>
 					<div class="col-md-6 col-sm-12 footer-no-padding">
 						<ul class="list-unstyled footer-menu text-right">

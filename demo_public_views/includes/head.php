@@ -81,3 +81,10 @@
 <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5b6e4f7486b6440010e02f35&product=inline-share-buttons' async='async'></script>
 
 <!-- Facebook -->
+<style media="screen">
+.bola-section{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20 px;
+}
+</style>
