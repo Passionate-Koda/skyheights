@@ -146,6 +146,9 @@ switch ($uri[1]) {
   case "delete_tes?id=$id":
   include APP_PATH."/demo_views/admin/delete_tes.php";
   break;
+
+
+
   case "delete_app?id=$id":
   include APP_PATH."/demo_views/admin/delete_application.php";
   break;

@@ -55,7 +55,7 @@
 
 <?php }else{ ?>
 
-<meta name="description" content="Skyheights Academy is a school who is interested in unleashing the hidden potentials of every child. It has a carefully structured curriculum ( British, Montessori and Nigeria) which suits every learning abilities of each child. The teaching method helps the child to envisage what has been taught into reality.">
+<meta name="description" content="Skyheights Academy is a school that is interested in unleashing the hidden potentials of every child. It has a carefully structured curriculum ( British, Montessori and Nigerian) which suits every learning abilities of each child. The teaching method helps the child to envisage what has been taught into reality.">
 <meta property="og:title" content="Skyheights Academy" />
 <meta property="og:image" content="https://skyheights-academy.com/images/log.jpeg" />
 <meta property="og:image:width" content="450"/>
