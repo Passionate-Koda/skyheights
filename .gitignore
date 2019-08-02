@@ -1,7 +1,6 @@
 backups
 cache
 crash
-demo_models
 lib
 local
 lock
@@ -18,4 +17,3 @@ www/application_files.tar.gz
 www/phpmyadmin
 .vagrant
 Vagrantfile
-www/uploads
